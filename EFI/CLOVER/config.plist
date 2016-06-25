@@ -139,18 +139,18 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Enable 128MB DVMT-prealloc, 8MB framebuffer, 48MB cursor bytes, 0x0a26000a</string>
+				<string>HDMI Audio Fix</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				CgAmCgEDAwMAAAACAAAwAQAAYAA=
+				AQUJAAAEAACHAAAA
 				</data>
 				<key>Name</key>
 				<string>AppleIntelFramebufferAzul</string>
 				<key>Replace</key>
 				<data>
-				CgAmCgEDAwMAAAAIAAAAAwAAAAM=
+				AQUJAAAIAACHAAAA
 				</data>
 			</dict>
 			<dict>
@@ -171,18 +171,34 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>HDMI Audio Fix</string>
+				<string>Trim Enabler</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				AQUJAAAEAACHAAAA
+				QVBQTEUgU1NE
 				</data>
 				<key>Name</key>
-				<string>AppleIntelFramebufferAzul</string>
+				<string>IOAHCIBlockStorage</string>
 				<key>Replace</key>
 				<data>
-				AQUJAAAIAACHAAAA
+				AAAAAAAAAAAA
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>AR3011 Fix</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				D4UHAQ==
+				</data>
+				<key>Name</key>
+				<string>IOBluetoothHostControllerUSBTransport</string>
+				<key>Replace</key>
+				<data>
+				D4QHAQ==
 				</data>
 			</dict>
 			<dict>
@@ -219,18 +235,18 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Trim Enabler</string>
+				<string>Enable 128MB DVMT-prealloc, 8MB framebuffer, 48MB cursor bytes, 0x0a26000a</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				QVBQTEUgU1NE
+				CgAmCgEDAwMAAAACAAAwAQAAYAA=
 				</data>
 				<key>Name</key>
-				<string>IOAHCIBlockStorage</string>
+				<string>AppleIntelFramebufferAzul</string>
 				<key>Replace</key>
 				<data>
-				AAAAAAAAAAAA
+				CgAmCgEDAwMAAAAIAAAAAwAAAAM=
 				</data>
 			</dict>
 		</array>
